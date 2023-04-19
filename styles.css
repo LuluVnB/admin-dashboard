@@ -157,8 +157,32 @@ div.header-bottom.left > img{
 
 .article{
     margin: 10px;
-    background-color: bisque;
+    /* background-color: bisque; */
     display: grid;
     grid-template-columns: 70% 30%;
+    font-weight: 900;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.your-projects{
+    /* border: 1px solid red; */
+    font-weight: 900;
+    position: relative;
+    top: 30px;
+    width: 10rem;
+    text-align: center;
+}
+
+
+.project-box{
+    margin: 50px 10px 10px 10px;
+    border-radius: 9px;
+    display: grid;
+    grid-template-columns: 5px 1fr;
 }
 

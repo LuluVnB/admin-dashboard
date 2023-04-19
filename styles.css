@@ -22,8 +22,27 @@ body{
     justify-content: space-between;
     padding-top: 30px;
     grid-column: 2/3;
-
+    font-size: 1.5rem;
 }
+.dashboard-item{
+    color: rgb(246, 250, 253);
+}
+
+.dashboard-icon{
+    width: 50%;
+    position: relative;
+    right: 80px;
+    bottom: 45px;
+}
+
+.home-icon,
+.profile-icon{
+    width: 25%;
+    position: relative;
+    right: 125px;
+    top: 8px;
+}
+
 
 .main{
     display: grid;
@@ -33,6 +52,7 @@ body{
 .header{
     background-color: white;
 }
+
 
 
 

@@ -212,3 +212,71 @@ div.header-bottom.left > img{
     justify-content: center;
     margin: 20px;
 }
+
+.news-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.announcements{
+    margin-top: -2rem;
+}
+.announcements-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.5rem;
+    background-color: white;
+    width: 15rem;
+    height: 25rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(148, 148, 148);
+
+}
+
+.announcements-container-text{
+    border-bottom: 1px solid lightgrey;
+    width: 11rem;
+}
+
+.announcements-container-text-dummy{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.announcements-container-text.updated{
+    border-bottom: none;
+}
+
+.trending{
+    margin-top: -5rem;
+}
+
+.trending-container{
+    background-color: white;
+    width: 15rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+}
+
+.trending-container-icons{
+    background-color: white ;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+
+.trending-container-pfps{
+    width: 4rem;
+    border-radius: 45px;
+    margin: 10px auto;
+}
+
+.trending-container-pfps.alvarez{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 200px;
+}

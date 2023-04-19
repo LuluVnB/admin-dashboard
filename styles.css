@@ -31,7 +31,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 33%;
+    width: 2rem;
     margin: 0 auto;
     /* border: 1px solid red; */
 }
@@ -155,4 +155,10 @@ div.header-bottom.left > img{
     background-color: rgb(73, 73, 139);
 }
 
+.article{
+    margin: 10px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 

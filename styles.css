@@ -55,6 +55,7 @@ body{
     background-color: white;
     display: grid;
     grid-template-rows: 30% 1fr;
+    box-shadow: 0 0.1px 5px;
 }
 
 
@@ -90,12 +91,20 @@ body{
     width: 2rem;
 }
 
-.pfp-icon{
+.header-top.right > img.pfp-icon{
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 10px
+}
+
+div.header-bottom.left > img{
     border-radius: 50px;
     width: 5rem;
     height: 5rem;
     margin-top: 10px;
 }
+
 
 .username{
     font-weight: 900;
@@ -108,12 +117,37 @@ body{
 }
 
 .header-bottom.left{
-    border: 1px solid red;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.pfp-text{
+    margin-left: 15px;
+    font-weight: 900;
 }
 
 
 
+.header-bottom.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-bottom.right > *{
+    background-color: rgb(121, 121, 230);
+    color: white;
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.header-bottom.right > *:active{
+    background-color: rgb(73, 73, 139);
+}
 
 

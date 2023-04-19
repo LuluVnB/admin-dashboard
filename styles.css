@@ -3,6 +3,36 @@
 }
 
 body{
-    height: 900px;
+    height: 1200px;
     background-color: lightgray;
+    display: grid;
+    grid-template-columns: 30% 1fr;
 }
+
+.dashboard-container{
+    background-color: rgb(18, 100, 207);
+    display: grid;
+    grid-template-rows: 60% 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    grid-column: 2/3;
+
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 20% 1fr;
+}
+
+.header{
+    background-color: white;
+}
+
+
+

@@ -42,3 +42,65 @@ for(let i = 0; i < 6; i++){
     linkIcon.style.marginRight = "15px";
 }
 
+const text1 = document.querySelector("body > div.main > div.article > div.projects > div:nth-child(1) > div.project-box-content > div.project-content-text");
+text1.className = "text1";
+text1Contentdiv = document.createElement("div");
+text1Contentp = document.createElement("p");
+text1Contentdiv.textContent = "Super Cool Project";
+text1Contentp.textContent = "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet";
+text1Contentp.style.fontWeight = "100";
+text1.appendChild(text1Contentdiv);
+text1.appendChild(text1Contentp);
+
+const text2 = document.querySelector("body > div.main > div.article > div.projects > div:nth-child(2) > div.project-box-content > div.project-content-text");
+text2.className = "text2";
+text2Contentdiv = document.createElement("div");
+text2Contentp = document.createElement("p");
+text2Contentdiv.textContent = "Less Cool Project";
+text2Contentp.textContent = "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet";
+text2Contentp.style.fontWeight = "100";
+text2.appendChild(text2Contentdiv);
+text2.appendChild(text2Contentp);
+
+const text3 = document.querySelector("body > div.main > div.article > div.projects > div:nth-child(3) > div.project-box-content > div.project-content-text");
+text3.className = "text3";
+text3Contentdiv = document.createElement("div");
+text3Contentp = document.createElement("p");
+text3Contentdiv.textContent = "Impossible App";
+text3Contentp.textContent = "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet";
+text3Contentp.style.fontWeight = "100";
+text3.appendChild(text3Contentdiv);
+text3.appendChild(text3Contentp);
+
+const text4 = document.querySelector("body > div.main > div.article > div.projects > div:nth-child(4) > div.project-box-content > div.project-content-text");
+text4.className = "text4";
+text4Contentdiv = document.createElement("div");
+text4Contentp = document.createElement("p");
+text4Contentdiv.textContent = "Easy Peasy App";
+text4Contentp.textContent = "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet";
+text4Contentp.style.fontWeight = "100";
+text4.appendChild(text4Contentdiv);
+text4.appendChild(text4Contentp);
+
+const text5 = document.querySelector("body > div.main > div.article > div.projects > div:nth-child(5) > div.project-box-content > div.project-content-text");
+text5.className = "text5";
+text5Contentdiv = document.createElement("div");
+text5Contentp = document.createElement("p");
+text5Contentdiv.textContent = "Ad Blocker";
+text5Contentp.textContent = "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet";
+text5Contentp.style.fontWeight = "100";
+text5.appendChild(text5Contentdiv);
+text5.appendChild(text5Contentp);
+
+const text6 = document.querySelector("body > div.main > div.article > div.projects > div:nth-child(6) > div.project-box-content > div.project-content-text");
+text6.className = "text6";
+text6Contentdiv = document.createElement("div");
+text6Contentp = document.createElement("p");
+text6Contentdiv.textContent = "Money Maker";
+text6Contentp.textContent = "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet";
+text6Contentp.style.fontWeight = "100";
+text6.appendChild(text6Contentdiv);
+text6.appendChild(text6Contentp);
+
+
+

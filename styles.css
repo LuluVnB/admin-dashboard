@@ -200,3 +200,15 @@ div.header-bottom.left > img{
     justify-content: flex-end;
 }
 
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}

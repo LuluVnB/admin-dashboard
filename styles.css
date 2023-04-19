@@ -173,7 +173,7 @@ div.header-bottom.left > img{
     /* border: 1px solid red; */
     font-weight: 900;
     position: relative;
-    top: 30px;
+    top: 45px;
     width: 10rem;
     text-align: center;
 }
@@ -235,6 +235,7 @@ div.header-bottom.left > img{
     box-shadow: 2px 2px 5px rgb(148, 148, 148);
 
 }
+
 
 .announcements-container-text{
     border-bottom: 1px solid lightgrey;

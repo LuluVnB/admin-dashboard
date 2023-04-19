@@ -15,7 +15,7 @@ body{
     background-color: rgb(18, 100, 207);
     display: grid;
     grid-template-rows: 60% 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .dashboard{
@@ -26,24 +26,24 @@ body{
     grid-column: 2/3;
     font-size: 1.5rem;
 }
+.dashboard-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.top-icons{
+    width: 4rem;
+    margin-top: 20px;
+    
+}
+
 .dashboard-item{
     color: rgb(246, 250, 253);
 }
 
-.dashboard-icon{
-    width: 50%;
-    position: relative;
-    right: 80px;
-    bottom: 45px;
-}
-
-.home-icon,
-.profile-icon{
-    width: 25%;
-    position: relative;
-    right: 125px;
-    top: 8px;
-}
 
 
 .main{

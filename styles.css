@@ -186,3 +186,18 @@ div.header-bottom.left > img{
     grid-template-columns: 5px 1fr;
 }
 
+.project-box-content{
+    display: grid;
+    grid-template-rows: 12rem 1fr;
+}
+
+.project-content-text{
+    background-color: aqua;
+}
+
+.project-content-icons{
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-end;
+}
+

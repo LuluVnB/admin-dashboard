@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -51,7 +53,55 @@ body{
 
 .header{
     background-color: white;
+    display: grid;
+    grid-template-rows: 30% 1fr;
 }
+
+
+.header-top{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.header-top.left{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-icon{
+    width: 5%;
+}
+
+#search{
+    width: 25rem;
+    height: 30px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    border: 1px solid lightgray;
+}
+
+.header-top.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notif-icon{
+    width: 2rem;
+}
+
+.pfp-icon{
+    border-radius: 50px;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 10px;
+}
+
+.username{
+    font-weight: 900;
+}
+
 
 
 

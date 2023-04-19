@@ -64,7 +64,6 @@ body{
 }
 
 .header-top.left{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -100,6 +99,18 @@ body{
 
 .username{
     font-weight: 900;
+}
+
+
+.header-bottom{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.header-bottom.left{
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
